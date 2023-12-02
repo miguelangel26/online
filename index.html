@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/feather-icons/dist/feather.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header class="header">
+        
+         <div class="menu container" id="mennu">
+         <!--   <a href="#" class="logo">logo</a>  -->
+             <div id="izquierda">
+                <i data-feather="menu" class="toggle" id="toggle-menu"></i>
+                <nav class="nav" id="nav-menu">
+                    <i data-feather ="x" class="close" id="close-menu"></i>
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="" class="nav_link nuevo">LO NUEVO</a></li>
+                        <li class="nav_item"><a href="hombre.html" class="nav_link">Hombre</a></li>
+                        <li class="nav_item"><a href="mujer.html" class="nav_link">Mujer</a></li>
+                        <li class="nav_item"><a href="regalo.html" class="nav_link">Regalos</a></li>
+                        <li class="nav_item"><a href="oferta.html" class="nav_link">OFERTAS</a></li>
+                    </ul>
+                </nav>
+            
+
+                <div id="ctn-icon-search">
+                <!--  <img src="/images/busqueda.svg" class="busqueda" id="icon-search" alt=""> -->
+                  <i data-feather="search" class="buscar" id="icon-searchs"></i>
+                </div>
+
+            
+            </div>
+            
+            
+            <div>
+            <h1 href="" class ="main-header__title" >NAVARRO</h1>               
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="hombre.html">Hombre</a></li>
+                        <li><a href="mujer.html">Mujer</a></li>
+                        <li><a href="regalo.html">Regalo</a></li>
+                        <li><a href="oferta.html">Oferta</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <i data-feather="shopping-cart" id="img-carrito"></i>
+                        <div id="carrito">
+                             <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                       <th>Imagen</th>
+                                       <th>Nombre</th>
+                                       <th>Precio</th>
+                                       <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Limpiar</a>
+                            <a href="#" class="btn-2">Comprar</a>
+                        </div>       
+                    </li>
+                </ul>
+            </div>       
+        </div>
+        <div class="overlay" id="overlay">
+        
+        </div>
+    </header>
+
+    <div id="ctn-bars-search">
+        <input type="text" id="inputSearch" placeholder="¿Que deseas buscar?">
+    </div>
+      <ul id="box-search">
+        <li><a href="busqueda-1.html"><i class="fa-solid fa-magnifying-glass"></i>chompas</a></li>
+        <li><a href="busqueda-2.html"><i class="fa-solid fa-magnifying-glass"></i>pantalon</a></li>
+        <li><a href="busqueda-3.html"><i class="fa-solid fa-magnifying-glass"></i>zapatillas</a></li>
+        <li><a href="busqueda-4.html"><i class="fa-solid fa-magnifying-glass"></i>camisas</a></li>
+        <li><a href="busqueda-5.html"><i class="fa-solid fa-magnifying-glass"></i>Polos</a></li>
+      </ul>
+    <div id="cover-ctn-search">
+    
+    </div>
+
+
+
+
+    <div class="container-slider">
+        <div class="slider" id="slider">
+          <div class="slider__section">
+            <img src="https://images.unsplash.com/photo-1613896640137-bb5b31496315?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Mujer</h2>
+              <p class="slider__txt">sale 50% off</p>
+              <a href="slider-1.html" class="btn-shop">MÁS</a>
+            </div>
+          </div>
+          <div class="slider__section">
+            <img src="https://images.pexels.com/photos/3414327/pexels-photo-3414327.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Mujer Sexy</h2>
+              <p class="slider__txt">sale 50% off</p>
+              <a href="slider-2.html" class="btn-shop">MÁS</a>
+            </div>
+          </div>
+          <div class="slider__section">
+            <img src="https://images.unsplash.com/photo-1591479763204-a293f0ba9cc7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Mujer Diosa</h2>
+              <p class="slider__txt">sale 50% off</p>
+              <a href="slider-3.html" class="btn-shop">MÁS</a>
+            </div>
+          </div>
+          <div class="slider__section">
+            <img src="https://images.unsplash.com/photo-1632010942888-52087ad99067?q=80&w=1596&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Hombre</h2>
+              <p class="slider__txt">sale 50% off</p>
+              <a href="slider-4.html" class="btn-shop">MÁS</a>
+            </div>
+          </div>
+        </div>
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+        <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+      </div>
+
+
+
+
+    <section class="ofert container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="https://images.unsplash.com/photo-1539008835657-9e8e9680c956?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h1>vestido</h1>
+                <a href="INFO-1.html" class="btn-2">Informacion</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="https://images.unsplash.com/photo-1589359425603-dfe010cf3ffa?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h1>chompas stetick</h1>
+                <a href="INFO-2.html" class="btn-2">Informacion</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="https://images.unsplash.com/photo-1540396776447-f2a5b9a020cf?q=80&w=1603&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h1>Overol</h1>
+                <a href="INFO-3.html" class="btn-2">Informacion</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h1>Cafarena Hombre</h1>
+                <a href="INFO-4.html" class="btn-2">Informacion</a>
+            </div>
+        </div>
+    </section>
+
+
+    <main class="products container" id="lista-1">
+
+        <h2>Novedades para ti</h2>
+
+        <div class="product-content">
+
+            <div class="product">
+                <img src="images/1.png" alt="">
+                <div class="product-text">
+                    <h3>Camisa</h3>
+                    <p>calidad primium</p>
+                    <p class="precio">s/ 200</p>
+                    <a href="#" class="agregar-carrito btn-2" date-ide ="1">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/2.png" alt="">
+                <div class="product-text">
+                    <h3>chaqueta</h3>
+                    <p>calidad primium</p>
+                    <p class="precio">s/ 700</p>
+                    <a href="#" class="agregar-carrito btn-2" date-ide ="2">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/3.png" alt="">
+                <div class="product-text">
+                    <h3>Chamara</h3>
+                    <p>calidad primium</p>
+                    <p class="precio">s/ 500</p>
+                    <a href="#" class="agregar-carrito btn-2" date-ide ="3">agregar al carrito</a>
+                </div>
+            </div>
+
+            <!--
+            <div class="product">
+                <img src="/images/4.png" alt="">
+                <div class="product-text">
+                    <h3>Camisa</h3>
+                    <p>calidad primium</p>
+                    <p class="precio">s/ 100</p>
+                    <a href="#" class="agregar-carrito btn-2" date-ide ="4">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/images/5.png" alt="">
+                <div class="product-text">
+                    <h3>Camisa</h3>
+                    <p>calidad primium</p>
+                    <p class="precio">s/ 150</p>
+                    <a href="#" class="agregar-carrito btn-2" date-ide ="5">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/images/6.png" alt="">
+                <div class="product-text">
+                    <h3>Abrigo</h3>
+                    <p>calidad primium</p>
+                    <p class="precio">s/ 930</p>
+                    <a href="#" class="agregar-carrito btn-2" date-ide ="6">agregar al carrito</a>
+                </div>
+            </div>
+            -->
+        </div>
+    </main>
+
+
+
+    <section class="icons container">
+        <div class="icon-1">
+            <div class="icon-imag">
+                <img src="i1.svg" alt="">
+            </div>
+            <div class="icon-text">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>
+                    amet consectetur adipisicing elit
+                </p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-imag">
+                <img src="i2.svg" alt="">
+            </div>
+            <div class="icon-text">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>
+                    amet consectetur adipisicing elit
+                </p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-imag">
+                <img src="i3.svg" alt="">
+            </div>
+            <div class="icon-text">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>
+                    amet consectetur adipisicing elit
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog container">
+
+        <div class="blog-1">
+            <img src="https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <h3>Blog 1</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus atque in ut explicabo perferendis reiciendis voluptate asperiores, fugit quibusdam sunt, vel laborum repellat eligendi, blanditiis magni distinctio voluptas earum amet?
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="https://plus.unsplash.com/premium_photo-1661741344546-8512cc5e4ca0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <h3>Blog 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus atque in ut explicabo perferendis reiciendis voluptate asperiores, fugit quibusdam sunt, vel laborum repellat eligendi, blanditiis magni distinctio voluptas earum amet?
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <h3>Blog 3</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus atque in ut explicabo perferendis reiciendis voluptate asperiores, fugit quibusdam sunt, vel laborum repellat eligendi, blanditiis magni distinctio voluptas earum amet?
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    <script>
+        feather.replace();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
